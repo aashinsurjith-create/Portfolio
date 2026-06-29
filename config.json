@@ -1,0 +1,191 @@
+{
+  "portfolio": {
+    "name": "Aashin Surjith Thampi",
+    "title": "Computer Science Student | Full-Stack Developer | AI Enthusiast",
+    "description": "Building innovative solutions with passion for learning and real-world problem-solving",
+    "email": "aashinsurjith@karunya.edu.in",
+    "phone": "+91-XXXXXXXXXX",
+    "location": "Coimbatore, India",
+    "social": {
+      "linkedin": "https://linkedin.com/in/aashin-surjith-thampi-c-aa0a33378/",
+      "github": "https://github.com/aashinsurjith-create",
+      "twitter": "https://twitter.com/your-username",
+      "portfolio": "https://your-portfolio.com"
+    },
+    "education": {
+      "degree": "B.Tech Computer Science & Engineering",
+      "institution": "Karunya Institute of Technology and Sciences",
+      "location": "Coimbatore",
+      "startYear": 2025,
+      "endYear": 2029,
+      "cgpa": "7.68/10.00",
+      "coursework": [
+        "C Programming",
+        "Python Programming",
+        "Web Development",
+        "Internet of Things (IoT)",
+        "Digital Sciences",
+        "Computer Architecture"
+      ]
+    },
+    "skills": {
+      "programmingLanguages": [
+        { "name": "Python", "proficiency": 85 },
+        { "name": "JavaScript", "proficiency": 80 },
+        { "name": "C", "proficiency": 75 },
+        { "name": "MySQL", "proficiency": 78 }
+      ],
+      "webDevelopment": [
+        { "name": "HTML/CSS", "proficiency": 90 },
+        { "name": "React.js", "proficiency": 82 },
+        { "name": "Node.js", "proficiency": 80 },
+        { "name": "MongoDB", "proficiency": 78 }
+      ],
+      "tools": [
+        { "name": "Git & GitHub", "proficiency": 88 },
+        { "name": "Arduino IDE", "proficiency": 75 },
+        { "name": "MATLAB", "proficiency": 70 },
+        { "name": "Linux", "proficiency": 80 }
+      ],
+      "concepts": [
+        "Data Structures",
+        "IoT",
+        "Machine Learning",
+        "AI",
+        "Web Development",
+        "Cloud Computing",
+        "API Development",
+        "Responsive Design"
+      ]
+    },
+    "projects": [
+      {
+        "id": 1,
+        "title": "Resume Craft",
+        "subtitle": "AI Resume & Portfolio Builder System",
+        "description": "An AI-based web application that analyzes resumes using machine learning techniques and embeddings to evaluate resume quality, identify weak areas, and suggest improvements. Features gamification elements like XP, levels, and tasks.",
+        "technologies": ["React", "Node.js", "MongoDB", "ML"],
+        "image": "resume-craft.jpg",
+        "links": {
+          "live": "",
+          "github": ""
+        }
+      },
+      {
+        "id": 2,
+        "title": "Fashin AI Chatbot",
+        "subtitle": "Full-Stack AI Fashion Advisory Application",
+        "description": "A full-stack AI application for personalized outfit analysis and fashion recommendations. Integrates AI vision models to analyze images and provides detailed feedback. Features user authentication and analytics dashboard.",
+        "technologies": ["React", "Node.js", "MongoDB", "Vision AI"],
+        "image": "fashin-ai.jpg",
+        "links": {
+          "live": "",
+          "github": ""
+        }
+      },
+      {
+        "id": 3,
+        "title": "IoT Smart System",
+        "subtitle": "Connected Devices & Smart Automation",
+        "description": "Developed IoT-based solutions for real-time monitoring and automation. Integrated Arduino microcontrollers with cloud services for smart device connectivity and data analysis.",
+        "technologies": ["Arduino", "IoT", "Python", "Cloud"],
+        "image": "iot-system.jpg",
+        "links": {
+          "live": "",
+          "github": ""
+        }
+      }
+    ],
+    "experience": [
+      {
+        "title": "AI & Web Development Intern",
+        "company": "Karunya Institute of Technology",
+        "location": "Coimbatore",
+        "startDate": "2024",
+        "endDate": "Present",
+        "description": "Working on AI-based projects focusing on machine learning applications and web development. Developing end-to-end solutions combining frontend and backend technologies with AI integration.",
+        "highlights": [
+          "Developed full-stack AI applications",
+          "Implemented machine learning models",
+          "Collaborated on web development projects"
+        ]
+      },
+      {
+        "title": "Academic Projects",
+        "company": "Karunya Institute of Technology",
+        "location": "Coimbatore",
+        "startDate": "2024",
+        "endDate": "Present",
+        "description": "Actively participating in academic projects covering various domains including AI, IoT, and Web Development. Gaining hands-on experience with industry-standard tools and technologies.",
+        "highlights": [
+          "Multiple AI-based projects",
+          "IoT implementations",
+          "Web application development"
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Google Cloud Digital Leader",
+        "issuer": "Google Cloud",
+        "date": "2024",
+        "credentialUrl": ""
+      },
+      {
+        "title": "Red Hat System Administration (RH124)",
+        "issuer": "Red Hat",
+        "date": "2024",
+        "credentialUrl": ""
+      },
+      {
+        "title": "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+        "issuer": "Oracle",
+        "date": "2025",
+        "credentialUrl": ""
+      },
+      {
+        "title": "Cisco: Introduction to IoT and Digital Transformation",
+        "issuer": "Cisco",
+        "date": "2024",
+        "credentialUrl": ""
+      },
+      {
+        "title": "DataCamp Certifications (Python, Data Science)",
+        "issuer": "DataCamp",
+        "date": "2024",
+        "credentialUrl": ""
+      }
+    ],
+    "statistics": {
+      "projects": "2+",
+      "certifications": "5+",
+      "cgpa": "7.68",
+      "languages": "4"
+    }
+  },
+  "theme": {
+    "colors": {
+      "primary": "#0066ff",
+      "secondary": "#00d4ff",
+      "darkBg": "#0a0e27",
+      "darkSecondary": "#1a1f3a",
+      "lightBg": "#ffffff",
+      "textDark": "#0a0e27",
+      "textLight": "#ffffff",
+      "textMuted": "#6b7280"
+    },
+    "fonts": {
+      "primary": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif",
+      "heading": "Segoe UI, sans-serif"
+    }
+  },
+  "settings": {
+    "enableDarkMode": true,
+    "enableAnimations": true,
+    "enableScrollToTop": true,
+    "mobileMenuEnabled": true,
+    "contactFormEnabled": true,
+    "analyticsEnabled": false,
+    "analyticsId": ""
+  }
+}
