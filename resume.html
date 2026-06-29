@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashin Surjith Thampi C - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .resume-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #2563EB;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #2563EB;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 0.95em;
+            flex-wrap: wrap;
+        }
+
+        .contact-info a {
+            color: #2563EB;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-info a:hover {
+            color: #06B6D4;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #2563EB;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #06B6D4;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: #333;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .job-title, .project-title {
+            font-weight: 700;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .company, .institution {
+            color: #06B6D4;
+            font-weight: 600;
+        }
+
+        .date {
+            color: #666;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+        }
+
+        .coursework {
+            color: #666;
+            font-size: 0.95em;
+            margin-bottom: 5px;
+        }
+
+        .cgpa {
+            color: #2563EB;
+            font-weight: 600;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+
+        .skill-category h3 {
+            margin-top: 0;
+        }
+
+        .skill-category ul {
+            margin-left: 20px;
+        }
+
+        .certification-list, .achievement-list, .activity-list {
+            margin-left: 20px;
+        }
+
+        .certification-list li, .achievement-list li, .activity-list li {
+            margin-bottom: 8px;
+        }
+
+        .print-button {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .print-button button {
+            padding: 12px 30px;
+            font-size: 1em;
+            background: linear-gradient(135deg, #2563EB, #06B6D4);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s;
+            font-weight: 600;
+        }
+
+        .print-button button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+
+        @media (max-width: 600px) {
+            .resume-container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .resume-container {
+                box-shadow: none;
+                padding: 0;
+            }
+
+            .print-button {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Header -->
+        <header>
+            <h1>AASHIN SURJITH THAMPI C</h1>
+            <div class="contact-info">
+                <span>📧 <a href="mailto:aashinsurjith@karunya.edu.in">aashinsurjith@karunya.edu.in</a></span>
+                <span>💼 <a href="https://www.linkedin.com/in/aashinsurjiththampi/" target="_blank">LinkedIn</a></span>
+                <span>💻 <a href="https://github.com/aashinsurjith-create" target="_blank">github.com/aashinsurjith-create</a></span>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Dedicated Computer Science student with skills in HTML, CSS, JavaScript, C, and Python. Strong problem-solving ability and a passion for learning new technologies, aiming to contribute and grow through real-world experience.</p>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <h3>B. Tech Computer Science and Engineering</h3>
+            <div class="institution">Karunya Institute of Technology and Sciences, Coimbatore</div>
+            <div class="date">2025 – Present</div>
+            <div class="coursework"><strong>Related Coursework:</strong> C Programming, Python Programming, Web Development, and Internet of Things (IoT), Digital Sciences, Computre Architecture.</div>
+            <div class="cgpa"><strong>CGPA:</strong> 7.68/10.00</div>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h2>Projects</h2>
+            
+            <h3>Resume Craft - AI Resume & Portfolio Builder System</h3>
+            <ul>
+                <li>Developed an AI-based web application to analyze resumes and provide personalized feedback</li>
+                <li>Used machine learning techniques and embeddings to evaluate resume quality</li>
+                <li>Generated resume scores, identified weak areas, and suggested improvements</li>
+                <li>Implemented gamification features like XP, levels, and tasks to enhance user engagement</li>
+                <li>Built using React, Node.js, and MongoDB</li>
+            </ul>
+
+            <h3>Fashin AI Chatbot</h3>
+            <ul>
+                <li>Built a full-stack AI application for personalized outfit analysis and recommendations</li>
+                <li>Integrated AI vision models to analyze images and provide detailed feedback</li>
+                <li>Developed a chatbot for real-time fashion advice based on user input</li>
+                <li>Implemented user authentication and dashboard for tracking history and analytics</li>
+                <li>Built using React, Node.js, and MongoDB</li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h2>Skills</h2>
+            <h3>Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 style="font-size: 1em; margin-top: 0;">Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>JavaScript</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 style="font-size: 1em; margin-top: 0;">Web Development</h3>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 style="font-size: 1em; margin-top: 0;">Tools & Technologies</h3>
+                    <ul>
+                        <li>GitHub</li>
+                        <li>Arduino IDE</li>
+                        <li>MATLAB (Basic)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h3>Concepts</h3>
+            <ul>
+                <li>Data Structures (Basic)</li>
+                <li>Internet of Things (IoT)</li>
+            </ul>
+        </section>
+
+        <!-- Certifications -->
+        <section>
+            <h2>Certifications</h2>
+            <ul class="certification-list">
+                <li><strong>Google Cloud Digital Leader</strong></li>
+                <li><strong>Red Hat System Administration (RH124)</strong></li>
+                <li><strong>Oracle Cloud Infrastructure 2025 Certified Generative AI Professional</strong></li>
+                <li><strong>Cisco: Introduction to IoT and Digital Transformation</strong></li>
+                <li><strong>DataCamp Certifications (Python, Data Science)</strong></li>
+            </ul>
+        </section>
+
+        <!-- Achievements -->
+        <section>
+            <h2>Achievements</h2>
+            <ul class="achievement-list">
+                <li>Built multiple AI and IoT-based projects as part of academic learning</li>
+                <li>Completed industry-recognized certifications in Cloud and Programming</li>
+                <li>Actively learning and applying concepts in AI, Web Development, and IoT</li>
+            </ul>
+        </section>
+
+        <!-- Project Portfolio -->
+        <section>
+            <h2>Project Portfolio</h2>
+            <ul>
+                <li><strong>GitHub:</strong> <a href="https://github.com/aashinsurjith-create" target="_blank">github.com/aashinsurjith-create</a></li>
+                <li>Developed and maintained projects in AI, Web Development, and IoT</li>
+            </ul>
+        </section>
+
+        <!-- Activities -->
+        <section>
+            <h2>Activities</h2>
+            <ul class="activity-list">
+                <li>Actively exploring AI and IoT technologies through self-learning</li>
+                <li>Participated in technical learning platforms and online courses</li>
+                <li>Interested in building real-world problem-solving applications</li>
+            </ul>
+        </section>
+
+        <!-- Print Button -->
+        <div class="print-button">
+            <button onclick="window.print()">🖨️ Print Resume</button>
+        </div>
+    </div>
+</body>
+</html>
