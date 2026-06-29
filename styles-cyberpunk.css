@@ -226,6 +226,7 @@ body.mouse-active .mouse-glow {
     gap: 1rem;
     margin-bottom: 1.5rem;
     animation: fade-in 0.8s ease-out;
+    position: relative;
 }
 
 .hi-text {
@@ -240,21 +241,27 @@ body.mouse-active .mouse-glow {
     text-shadow: 0 0 20px rgba(0, 217, 255, 0.3);
 }
 
-.waving-hand {
-    font-size: 3rem;
-    animation: wave 2s ease-in-out infinite;
-    display: inline-block;
+.greeting-glow {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0, 217, 255, 0.4), transparent);
+    position: absolute;
+    right: -40px;
+    animation: glow-pulse 3s ease-in-out infinite;
+    box-shadow: 0 0 30px rgba(0, 217, 255, 0.6);
 }
 
-@keyframes wave {
+@keyframes glow-pulse {
     0%, 100% {
-        transform: rotate(0deg);
+        transform: scale(1);
+        opacity: 0.6;
+        box-shadow: 0 0 30px rgba(0, 217, 255, 0.6);
     }
-    25% {
-        transform: rotate(20deg);
-    }
-    75% {
-        transform: rotate(-20deg);
+    50% {
+        transform: scale(1.3);
+        opacity: 0.3;
+        box-shadow: 0 0 60px rgba(124, 58, 237, 0.8);
     }
 }
 
